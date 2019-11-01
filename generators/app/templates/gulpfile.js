@@ -4,7 +4,7 @@ const { spawn } = require('child_process');
 
 const allSrc = ['src/**/*.js', 'gulpfile.js'];
 
-const watchFiles = ['src/**/*.js', 'gulpfile.js', 'testfile.json'];
+const watchFiles = ['src/**/*.js', 'gulpfile.js'];
 
 let nodeProcess;
 
