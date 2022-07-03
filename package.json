@@ -1,0 +1,14 @@
+{
+  "name": "generator-bcnode",
+  "version": "0.3.0",
+  "description": "",
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^5.6.1"
+  }
+}
