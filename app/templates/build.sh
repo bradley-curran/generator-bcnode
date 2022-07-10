@@ -10,4 +10,4 @@ prettier --check "src/**/*.ts"
 tsc
 
 # run esbuild
-esbuild src/index.ts --outdir=. --bundle --platform=node --minify --sourcemap
+esbuild src/index.ts --outdir=. --bundle --platform=node --external:./node_modules/* --minify --sourcemap
